@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "1367451ec0c2076346f87b01c838115731b3b218dc8d73a6171490329c5961b4"
+    }
+  ],
+  "containerPath" : "/Users/joseangelriveaux/Desktop/PostDoc/LRKGA/LRKGA/LRKGA.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/joseangelriveaux/Desktop/PostDoc/LRKGA/LRKGA/LRKGA/test_instances/LRKGA-gzyvqxyjrecxusfrseqqtxwlzikl/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/joseangelriveaux/Desktop/PostDoc/LRKGA/LRKGA/LRKGA/test_instances/LRKGA-gzyvqxyjrecxusfrseqqtxwlzikl/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/joseangelriveaux/Desktop/PostDoc/LRKGA/LRKGA/LRKGA/test_instances",
+      "indexDataStoreFolderPath" : "/Users/joseangelriveaux/Desktop/PostDoc/LRKGA/LRKGA/LRKGA/test_instances/LRKGA-gzyvqxyjrecxusfrseqqtxwlzikl/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/joseangelriveaux/Desktop/PostDoc/LRKGA/LRKGA/LRKGA/test_instances/LRKGA-gzyvqxyjrecxusfrseqqtxwlzikl/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/joseangelriveaux/Desktop/PostDoc/LRKGA/LRKGA/LRKGA/test_instances/LRKGA-gzyvqxyjrecxusfrseqqtxwlzikl/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/joseangelriveaux/Library/Developer/Xcode/DerivedData/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

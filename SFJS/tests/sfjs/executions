@@ -1,0 +1,31 @@
+#multistart, GRASP-LS, GRASP-IG
+LRKGA -src <src>  -logs <log> -alg 2 -lst 0 -tests 5 -t 60 -alpha 0.25
+#VNS 0, 1, 2, 3, 4
+LRKGA -src <src>  -logs <log> -alg 2 -lst 0 -tests 5 -t 60 -alpha 0.25 -epsilon 0
+#Simulated Annealing
+LRKGA -src <src>  -logs <log> -alg 2 -lst 0 -tests 5 -t 60 -alpha 0.25 -epsilon 0
+#BRKGA
+LRKGA -src <src>  -logs <log> -alg 2 -lst 0 -tests 5 -t 60 -alpha 0.25 -epsilon 0  -p 100 -pe 0.1 -pm 0.05 -rhoe 0.75
+
+
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/2/" -alg 2 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 2.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/3/" -alg 3 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 3.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/5/" -alg 5 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 5.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/7/" -alg 7 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 7.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/11/" -alg 11 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 11.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/13/" -alg 13 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 13.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/17/" -alg 17 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 17.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/19/" -alg 19 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 19.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/23/" -alg 23 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 23.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/29/" -alg 29 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 29.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/31/" -alg 31 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 31.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/37/" -alg 37 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 37.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/41/" -alg 41 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 41.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/43/" -alg 43 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 43.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/47/" -alg 47 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 47.txt &
+nohup ./Metaheuristics -src "/home/jose/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jose/LRKGA/remote_results/53/" -alg 53 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 53.txt &
+
+
+
+-src "/home/jangel/Desktop/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jangel/Desktop/LRKGA/results/sfjs/" -alg 2 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 2.txt
+-src "/home/jangel/Desktop/LRKGA/LRKGA/test_instances/flow-shop/newYsmall/" -logs "/home/jangel/Desktop/LRKGA/results/sfjs/" -alg 3 -lst 0 -tests 5 -t 60 -alpha 0.25 -start 0 -epsilon 0 >> 3.txt
